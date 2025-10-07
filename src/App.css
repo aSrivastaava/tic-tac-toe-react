@@ -1,4 +1,21 @@
-.App {
+.game {
   text-align: center;
+  background-color: #A9DDF7;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
 }
+.game-board {
+  justify-self: end;
+  align-self: center;
+  margin: 0;
 
+}
+.game-info {
+  justify-self: start;
+  align-self: center;
+  margin: 0;
+
+}
